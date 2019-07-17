@@ -5,7 +5,7 @@ import 'package:flutter_testapp/newPage.dart';
 import 'package:flutter_testapp/otherPage.dart';
 import 'Tool.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'FreeLocalizations.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -95,7 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 
-class FreeLocalizations extends FreeLocalizationsSuper {
+class FreeLocalizations extends StatefulWidget {
   final Widget child;
 
   FreeLocalizations({Key key, this.child}) : super(key: key);
